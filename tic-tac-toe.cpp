@@ -56,11 +56,11 @@ void game(char tictactoe[3][3], char player){                        // Inputs r
             cout<<"DRAW!"<<endl;
             break;
         }  
-        player=(player=='X') ? 'O': 'X';   // Swtich between the 2 players
+        player=(player=='X') ? 'O': 'X';                        // Swtich between the 2 players
     }
         cout<<"do you want to play again? (y/n): "<<endl;
         cin>>q; 
-        if(q=='y')   // condition to play again
+        if(q=='y')                                            // condition to play again
         {
             for (int i=0;i<3; i++)
             {
@@ -80,7 +80,7 @@ void game(char tictactoe[3][3], char player){                        // Inputs r
 }
 
    
-int main(){          // Initialising the player and the grid
+int main(){                                              // Initialising the player and the grid
     char tictactoe[3][3]={
         {' ',' ',' '},
         {' ',' ',' '},
